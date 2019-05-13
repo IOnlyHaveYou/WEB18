@@ -25,7 +25,6 @@ public class ProductInfoServlet extends HttpServlet {
 		try {
 			 productInfoList = service.findAllProduct();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		for (Product product : productInfoList) {
